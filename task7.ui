@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect><x>0</x><y>0</y><width>700</width><height>300</height></rect>
+        </property>
+        <property name="windowTitle"><string>Фортепиано</string></property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QHBoxLayout" name="hl">
+                <item><widget class="QPushButton" name="btnC"><property name="text"><string>До</string></property></widget></item>
+                <item><widget class="QPushButton" name="btnD"><property name="text"><string>Ре</string></property></widget></item>
+                <item><widget class="QPushButton" name="btnE"><property name="text"><string>Ми</string></property></widget></item>
+                <item><widget class="QPushButton" name="btnF"><property name="text"><string>Фа</string></property></widget></item>
+                <item><widget class="QPushButton" name="btnG"><property name="text"><string>Соль</string></property></widget></item>
+                <item><widget class="QPushButton" name="btnA"><property name="text"><string>Ля</string></property></widget></item>
+                <item><widget class="QPushButton" name="btnB"><property name="text"><string>Си</string></property></widget></item>
+            </layout>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

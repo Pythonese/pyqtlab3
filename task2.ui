@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect><x>0</x><y>0</y><width>600</width><height>400</height></rect>
+        </property>
+        <property name="windowTitle"><string>Редактор</string></property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QVBoxLayout" name="verticalLayout">
+                <item>
+                    <widget class="QTextEdit" name="textEdit"/>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <widget class="QMenu" name="menuFile">
+                <property name="title"><string>Файл</string></property>
+                <addaction name="actionNew"/>
+                <addaction name="actionOpen"/>
+                <addaction name="actionSave"/>
+                <addaction name="actionSaveAs"/>
+            </widget>
+            <addaction name="menuFile"/>
+        </widget>
+        <action name="actionNew">
+            <property name="text"><string>Создать</string></property>
+            <property name="shortcut"><string>Ctrl+N</string></property>
+        </action>
+        <action name="actionOpen">
+            <property name="text"><string>Открыть</string></property>
+            <property name="shortcut"><string>Ctrl+O</string></property>
+        </action>
+        <action name="actionSave">
+            <property name="text"><string>Сохранить</string></property>
+            <property name="shortcut"><string>Ctrl+S</string></property>
+        </action>
+        <action name="actionSaveAs">
+            <property name="text"><string>Сохранить как...</string></property>
+            <property name="shortcut"><string>Ctrl+Shift+S</string></property>
+        </action>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
